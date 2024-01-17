@@ -1,0 +1,10 @@
+.DS_STORE
+
+.env
+node_modules/
+
+# Build Artifacts
+dist/
+
+# Personal Playground
+prototyping/

@@ -1,0 +1,17 @@
+{
+  "include": ["src/**/*", "setupTest.ts"],
+  "exclude": ["node_modules/**/*"],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ES6",
+
+    "declaration": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+  }
+}
